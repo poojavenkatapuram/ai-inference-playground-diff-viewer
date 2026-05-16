@@ -114,17 +114,18 @@ Inference Playground
 ### AI Inference Playground
 Real-time AI inference playground with text/audio input, live transcription, streaming output, and inference metrics.
 
-![Inference Playground](screenshots/playground.png)
+![Inference Playground](https://github.com/poojavenkatapuram/ai-inference-playground-diff-viewer/blob/main/screenshots/playground.png?raw=true)
 
 ### Audio Transcription Workflow
 Audio recording interface with live speech-to-text transcription using Web Speech API.
 
-![Audio Workflow](screenshots/audio.png)
+![Audio Workflow](https://github.com/poojavenkatapuram/ai-inference-playground-diff-viewer/blob/main/screenshots/audio.png?raw=true)
+
 
 ### AI Model Diff Viewer
 Token-level AI model comparison interface using dynamic programming based diff visualization.
+![Diff Viewer](https://github.com/poojavenkatapuram/ai-inference-playground-diff-viewer/blob/main/screenshots/diffviewer.png?raw=true)
 
-![Diff Viewer](screenshots/diffviewer.png)
 ## Setup Instructions
 Clone Repository
 
