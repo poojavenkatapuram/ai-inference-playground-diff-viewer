@@ -4,53 +4,48 @@ A modern AI tooling platform built with React and TypeScript that simulates real
 
 ---
 
-# Overview
+## Overview
 
 This project combines two major AI tooling workflows into a single interactive platform.
 
-## Part A — AI Inference Playground
+### Part A — AI Inference Playground
 
 Simulates real-time AI inference with:
-- text prompts,
-- audio recording,
-- live transcription,
-- streaming token output,
-- inference metrics.
+- Text prompts
+- Audio recording
+- Live transcription
+- Streaming token output
+- Inference metrics
 
-## Part B — AI Model Diff Viewer
+### Part B — AI Model Diff Viewer
 
 Compares outputs from multiple AI models using:
-- token-level diffing,
-- dynamic visualization,
-- added/removed token highlighting,
-- real-time comparison updates.
+- Token-level diffing
+- Dynamic visualization
+- Added/removed token highlighting
+- Real-time comparison updates
 
 ---
 
-# Features
+## Features
 
-## AI Inference Playground
+### AI Inference Playground
 
 - Real-time text prompt inference
 - Audio recording using MediaRecorder API
 - Live speech transcription using Web Speech API
 - Streaming token-by-token rendering
-- Token count metrics
-- Tokens-per-second metrics
+- Token count and tokens-per-second metrics
 - Error handling for interrupted streams
-- Copy generated output
-- Clear generated output
+- Copy and clear generated output
 - Professional responsive interface
 
----
-
-## AI Model Diff Viewer
+### AI Model Diff Viewer
 
 - Compare outputs from multiple AI models
 - Prompt-based automatic response generation
 - Token-level difference visualization
-- Added token highlighting
-- Removed token highlighting
+- Added and removed token highlighting
 - Dynamic statistics tracking
 - Real-time comparison updates
 - Scrollable comparison panels
@@ -58,7 +53,7 @@ Compares outputs from multiple AI models using:
 
 ---
 
-# Tech Stack
+## Tech Stack
 
 - React
 - TypeScript
@@ -69,7 +64,7 @@ Compares outputs from multiple AI models using:
 
 ---
 
-# System Architecture
+## System Architecture
 
 ```bash
 src/
@@ -82,70 +77,91 @@ src/
 ├── services/
 ├── utils/
 └── pages/
-Diff Algorithm
-Longest Common Subsequence (LCS)
+```
 
-The AI Model Diff Viewer uses a dynamic programming based Longest Common Subsequence (LCS) algorithm to compute token-level differences between model outputs.
+---
+
+## Diff Algorithm
+
+The AI Model Diff Viewer uses a dynamic programming based **Longest Common Subsequence (LCS)** algorithm to compute token-level differences between model outputs.
 
 This enables:
+- Accurate token comparison
+- Identification of added tokens
+- Identification of removed tokens
+- Real-time diff visualization
 
-accurate token comparison,
-identification of added tokens,
-identification of removed tokens,
-real-time diff visualization.
-
-The algorithm improves comparison quality significantly over naive positional comparison approaches.
+---
 
 ## Example Workflow
-Inference Playground
-1.Enter text prompt or record audio
-2.Generate simulated streaming AI response
-3.View live output rendering
-4.Monitor inference metrics
 
-## Model Diff Viewer
-1.Enter prompt
-2.Generate outputs from two AI models
-3.Compare outputs side-by-side
-4.Analyze token-level differences
+### Inference Playground
+
+1. Enter text prompt or record audio
+2. Generate simulated streaming AI response
+3. View live output rendering
+4. Monitor inference metrics
+
+### Model Diff Viewer
+
+1. Enter prompt
+2. Generate outputs from two AI models
+3. Compare outputs side-by-side
+4. Analyze token-level differences
+
+---
 
 ## Screenshots
 
 ### AI Inference Playground
+
 Real-time AI inference playground with text/audio input, live transcription, streaming output, and inference metrics.
 
 ![Inference Playground](https://github.com/poojavenkatapuram/ai-inference-playground-diff-viewer/blob/main/screenshots/playground.png?raw=true)
 
 ### Audio Transcription Workflow
+
 Audio recording interface with live speech-to-text transcription using Web Speech API.
 
 ![Audio Workflow](https://github.com/poojavenkatapuram/ai-inference-playground-diff-viewer/blob/main/screenshots/audio.png?raw=true)
 
-
 ### AI Model Diff Viewer
+
 Token-level AI model comparison interface using dynamic programming based diff visualization.
+
 ![Diff Viewer](https://github.com/poojavenkatapuram/ai-inference-playground-diff-viewer/blob/main/screenshots/diffviewer.png?raw=true)
 
+---
+
 ## Setup Instructions
-Clone Repository
 
+**Clone Repository**
+```bash
 git clone https://github.com/poojavenkatapuram/ai-inference-playground-diff-viewer.git
+```
 
-## Install Dependencies
+**Install Dependencies**
+```bash
 npm install
+```
 
-##Run Development Server
+**Run Development Server**
+```bash
 npm run dev
+```
 
+---
 
 ## Future Improvements
-Real LLM API integration
-Streaming diff visualization
-Export comparison reports
-Multi-model comparison support
-Advanced inference analytics
-Persistent conversation history
 
+- Real LLM API integration
+- Streaming diff visualization
+- Export comparison reports
+- Multi-model comparison support
+- Advanced inference analytics
+- Persistent conversation history
+
+---
 
 ## Author
 
