@@ -1,3 +1,8 @@
+# Live Demo
+
+[Live Project Link](https://ai-inference-playground-diff-viewer.vercel.app/)
+
+
 # AI Inference Playground + Model Diff Viewer
 
 A modern AI tooling platform built with React and TypeScript that simulates real-time AI inference workflows and enables token-level comparison between AI model outputs using a dynamic programming based diff algorithm.
